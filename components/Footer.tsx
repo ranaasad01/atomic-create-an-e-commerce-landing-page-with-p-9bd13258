@@ -96,7 +96,11 @@ export default function Footer() {
                     onClick={(e) => handleAnchorClick(e, link.href)}
                     className="text-sm text-gray-400 hover:text-orange-400 transition-colors duration-200"
                   >
-                    {link.label}
+                    {link.label === "New Collection" ? (
+                      <span style={{ color: "#130701", backgroundColor: "#ffedd5" }}>{link.label}</span>
+                    ) : (
+                      link.label
+                    )}
                   </Link>
                 </li>
               ))}
