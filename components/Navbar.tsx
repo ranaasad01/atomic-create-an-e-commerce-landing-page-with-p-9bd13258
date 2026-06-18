@@ -119,7 +119,7 @@ export default function Navbar({ cartCount = 0 }: NavbarProps) {
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center px-5 py-2.5 bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold rounded-xl shadow-md shadow-orange-200 transition-colors duration-200 cursor-pointer"
-                style={{ color: "#130701", backgroundColor: "#ffedd5" }}
+                style={{ color: "#f5f1f0", backgroundColor: "#ffedd5" }}
               >
                 {navCTA.label}
               </motion.span>

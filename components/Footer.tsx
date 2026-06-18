@@ -98,6 +98,8 @@ export default function Footer() {
                   >
                     {link.label === "New Collection" ? (
                       <span style={{ color: "#130701", backgroundColor: "#ffedd5" }}>{link.label}</span>
+                    ) : link.label === "Shop Now" ? (
+                      <span style={{ color: "#f5f1f0", backgroundColor: "#ffedd5" }}>{link.label}</span>
                     ) : (
                       link.label
                     )}
