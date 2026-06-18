@@ -457,14 +457,14 @@ export default function HomePage() {
             <div className="flex flex-col gap-4 mt-10">
               <div className="rounded-3xl overflow-hidden aspect-[3/4] shadow-xl">
                 <img
-                  src="https://images.squarespace-cdn.com/content/v1/633d97a584c81a7b487bccd0/1666200539913-NJTKCUZF9KWR0HJY8KXN/IMG_1474.jpeg"
+                  src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/9bd13258-33e4-4648-a809-6ad1d2447873/aa66660bd82145bdbd1518b2f88210ad.png"
                   alt="Curated home décor"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="rounded-3xl overflow-hidden aspect-square shadow-lg">
                 <img
-                  src="https://images.squarespace-cdn.com/content/v1/633d97a584c81a7b487bccd0/1666200539913-NJTKCUZF9KWR0HJY8KXN/IMG_1474.jpeg"
+                  src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/9bd13258-33e4-4648-a809-6ad1d2447873/aa66660bd82145bdbd1518b2f88210ad.png"
                   alt="Linen textiles"
                   className="w-full h-full object-cover"
                 />
