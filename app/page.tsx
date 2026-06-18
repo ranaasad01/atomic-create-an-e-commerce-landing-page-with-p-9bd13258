@@ -223,7 +223,7 @@ function StarRating({ rating, count }: { rating: number; count: number }) {
           />
         ))}
       </div>
-      <span className="text-xs text-gray-500">
+      <span className="text-xs text-gray-500" style={{ color: "#1d0d02", backgroundColor: "#fff7ed" }}>
         {rating.toFixed(1)} ({count})
       </span>
     </div>
