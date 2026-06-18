@@ -397,6 +397,7 @@ export default function HomePage() {
               className="flex flex-wrap items-center gap-4"
             >
               <motion.a
+                style={{ color: "#130101", backgroundColor: "#ea580c" }}
                 href="#products"
                 whileHover={shouldReduceMotion ? {} : { scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
