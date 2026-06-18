@@ -369,7 +369,7 @@ export default function HomePage() {
             <motion.div variants={fadeInUp}>
               <span className="inline-flex items-center gap-2 bg-orange-100 text-orange-600 text-xs font-semibold px-3 py-1.5 rounded-full uppercase tracking-wider">
                 <Sparkles className="w-3.5 h-3.5" />
-                New Collection 2025
+                New Collection
               </span>
             </motion.div>
 
@@ -520,7 +520,7 @@ export default function HomePage() {
               <p className="text-orange-500 text-sm font-semibold uppercase tracking-wider mb-2">
                 Browse by Category
               </p>
-              <h2 className="text-4xl font-bold text-gray-900">
+              <h2 className="text-4xl font-bold text-gray-900" style={{ fontFamily: "ui-sans-serif", fontSize: "26px" }}>
                 Find Your Aesthetic
               </h2>
             </motion.div>
