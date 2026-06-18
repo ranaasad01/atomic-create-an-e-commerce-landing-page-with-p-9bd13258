@@ -71,7 +71,7 @@ export default function Navbar({ cartCount = 0 }: NavbarProps) {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-1">
-            {navLinks.map((link) => (
+            {navLinks.map((link, index) => (
               <Link
                 key={link.href}
                 href={getHref(link.href)}
@@ -81,6 +81,9 @@ export default function Navbar({ cartCount = 0 }: NavbarProps) {
                     ? "text-orange-500 bg-orange-50"
                     : "text-gray-600"
                 }`}
+                {...(index === navLinks.length - 1
+                  ? { style: { fontFamily: "ui-sans-serif", fontSize: "24px" } }
+                  : {})}
               >
                 {link.label}
               </Link>
